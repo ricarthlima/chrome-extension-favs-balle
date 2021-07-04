@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Favs",
+    "description": "Salve seus links de maneira organizada com o Favs!",
+    "version": "0.0.1",
+    "action":{
+        "default_icon":"assets/icon.png",
+        "default_popup": "index.html"
+    },
+    "permissions":[
+        "tabs",
+        "storage"
+    ],
+    "host_permissions":[
+        "<all_urls>"
+    ]
+}
